@@ -1,3 +1,8 @@
+@font-face{
+  font-family: 'chawp';
+  src: local('chawp'),
+  url('./pages/chawp.ttf')format('ttf');
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

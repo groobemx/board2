@@ -1,0 +1,53 @@
+.Dialog {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(173, 216, 230, 0.041);
+    border-radius: 10px;
+    border: 3px solid rgba(128, 128, 128, 0);
+    position: absolute;
+    cursor: move;
+    top: 150px;
+    left: 520px;
+}
+.noMove {
+    
+   
+    width: 400px;
+    height: 400px;
+    background-color: rgba(173, 216, 230, 0.041);
+    border-radius: 10px;
+    border: 3px solid rgba(128, 128, 128, 0);
+    position: static;
+    cursor: none;
+    top: 150px;
+    left: 520px;   
+        
+}
+
+.hidden {
+    display: none;
+}
+
+.DialogTitle {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid grey;
+}
+
+.Contents {
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.closeButton {
+    font-size: 12px;
+    width: 100px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 140px;
+    cursor: pointer;
+}
